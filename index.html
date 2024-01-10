@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="./script.js"></script>
+  <title>Cinesapp</title>
+</head>
+
+<body>
+
+
+  <label>Selecciona número de filas:</label>
+  <input type="number" id="rows" name="rows" min="1"/>
+  <label>Selecciona número de asientos:</label>
+  <input type="number" id="numberSeats" name="numberSeats" min="1" />
+
+
+    <div class="movie-container">
+      <label>Selecciona una película:</label>
+      <select id="movie">
+      </select>
+    </div>
+  
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Disponible</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Seleccionada</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Ocupada</small>
+      </li>
+    </ul>
+  
+    <div id="container" class="container ">
+      
+    </div>
+  
+    <p class="text">
+      Has seleccionado <span id="count">0</span> asientos por el precio de <span id="total">0</span>€
+    </p>
+
+
+
+</body>
+
+</html>

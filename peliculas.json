@@ -1,0 +1,25 @@
+
+{
+    "peliculas": [
+      {
+          "titulo": "Star Wars Episodio 1: La amenaza fantasma",
+          "precio": 8,
+          "imagen": "./img/amenaza.jpg"
+        },
+        {
+          "titulo": "Harry Potter y la piedra filosofal",
+          "precio": 7,
+          "imagen": "./img/potter.jpg"
+        },
+        {
+          "titulo": "El caballero oscuro",
+          "precio": 8,
+          "imagen": "./img/caballero.jpg"
+        },
+        {
+            "titulo": "Funny games",
+            "precio": 7,
+            "imagen": "./img/funny.jpg"
+        }
+    ]
+  }
